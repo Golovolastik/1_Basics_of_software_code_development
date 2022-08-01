@@ -17,6 +17,9 @@ public class Task2 {
         int min1 = a<b ? a : b;
         int min2 = c<d ? c : d;
         int res = min1>min2 ? min1 : min2;
+        // Проще использовать класс Math и его методы max и min
+        //int res2 = Math.max(Math.min(a,b), Math.min(c,d));
         System.out.println(res);
+        //System.out.println(res2);
     }
 }
